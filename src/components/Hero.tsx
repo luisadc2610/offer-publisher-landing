@@ -22,14 +22,18 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 md:py-32">
-        <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent leading-tight">
-            Multiplica tus ingresos sin renunciar a tu pasión ni quemarte en el intento
+      <div className="relative z-10 container mx-auto px-4 py-20 md:py-32 lg:py-40">
+        <div className="max-w-5xl mx-auto text-center animate-fade-in-up">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-6 md:mb-8 bg-gradient-primary bg-clip-text text-transparent leading-tight">
+            Para el Creador de Contenido que está listo para construir un Imperio Digital.
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
-            Recupera el control de tu negocio digital y transforma tu comunidad en una auténtica fuente de ingresos predecibles, sin depender de algoritmos ni sacrificar tu creatividad.
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-10 text-foreground leading-tight">
+            Has construido una audiencia que confía en ti. Nos asociamos 50/50 para transformar tu experiencia en un producto digital premium y escalarlo a millones.
+          </h2>
+
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed">
+            aceleradoradecreadores.com no es una agencia. No te cobramos. Somos tu socio "Publisher". Nosotros construimos toda la maquinaria de negocio (tecnología, marketing y ventas) y cubrimos todos los costos. Tú solo te enfocas en crear.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -37,18 +41,13 @@ const Hero = () => {
               variant="hero" 
               size="xl" 
               onClick={scrollToForm}
-              className="group"
-              aria-label="Solicitar consultoría gratuita"
+              className="group w-full sm:w-auto"
+              aria-label="Aplica para Nuestra Asociación"
             >
-              ¡Quiero mi consultoría gratuita!
+              Aplica para Nuestra Asociación
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
-
-          {/* Trust Badge */}
-          <p className="mt-8 text-sm text-muted-foreground">
-            🔒 Sin compromiso • Consultoría 100% personalizada
-          </p>
         </div>
       </div>
 
