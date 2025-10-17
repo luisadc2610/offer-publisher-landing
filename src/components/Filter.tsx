@@ -22,10 +22,10 @@ const Filter = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 md:mb-8">
               Buscamos Socios, no Clientes.
             </h2>
-            <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Este modelo no es para todos. Invertimos una cantidad significativa de tiempo y capital en cada socio, por lo que somos muy selectivos.
             </p>
           </div>
@@ -38,7 +38,7 @@ const Filter = () => {
                   <div className="p-3 rounded-xl bg-success">
                     <CheckCircle2 className="w-6 h-6 md:w-8 md:h-8 text-success-foreground" />
                   </div>
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-success">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-success">
                     Esto es para ti si:
                   </h3>
                 </div>
@@ -63,7 +63,7 @@ const Filter = () => {
                   <div className="p-3 rounded-xl bg-destructive">
                     <XCircle className="w-6 h-6 md:w-8 md:h-8 text-destructive-foreground" />
                   </div>
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-destructive">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-destructive">
                     Esto NO es para ti si:
                   </h3>
                 </div>

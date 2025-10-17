@@ -22,10 +22,10 @@ const Partnership = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 md:mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 md:mb-6">
               Nuestra Asociación 50/50: Claridad Total
             </h2>
-            <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Creemos en la alineación total de intereses. Solo ganamos dinero si tú ganas dinero. Por eso, la división de tareas es simple.
             </p>
           </div>
@@ -38,10 +38,10 @@ const Partnership = () => {
                   <User className="w-6 h-6 md:w-8 md:h-8 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-card-foreground">
+                  <h3 className="text-2xl sm:text-3xl font-black text-card-foreground">
                     TÚ - EL CREADOR
                   </h3>
-                  <p className="text-base md:text-lg text-muted-foreground font-semibold">
+                  <p className="text-sm md:text-base text-muted-foreground font-semibold">
                     Tu Zona de Genialidad
                   </p>
                 </div>
@@ -66,10 +66,10 @@ const Partnership = () => {
                   <Building2 className="w-6 h-6 md:w-8 md:h-8 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-card-foreground">
+                  <h3 className="text-2xl sm:text-3xl font-black text-card-foreground">
                     NOSOTROS - EL PUBLISHER
                   </h3>
-                  <p className="text-base md:text-lg text-muted-foreground font-semibold">
+                  <p className="text-sm md:text-base text-muted-foreground font-semibold">
                     Todo lo Demás
                   </p>
                 </div>
@@ -89,7 +89,7 @@ const Partnership = () => {
           </div>
 
           <div className="text-center mt-12 md:mt-16">
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground">
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
               En resumen: Tú creas. Nosotros construimos el imperio a tu alrededor.
             </p>
           </div>

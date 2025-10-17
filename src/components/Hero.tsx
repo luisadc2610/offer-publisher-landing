@@ -24,15 +24,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 md:py-32 lg:py-40">
         <div className="max-w-5xl mx-auto text-center animate-fade-in-up">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black mb-6 md:mb-8 bg-gradient-primary bg-clip-text text-transparent leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8 bg-gradient-primary bg-clip-text text-transparent leading-tight">
             Para el Creador de Contenido que está listo para construir un Imperio Digital.
           </h1>
           
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-10 text-foreground leading-tight">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-10 text-foreground leading-tight">
             Has construido una audiencia que confía en ti. Nos asociamos 50/50 para transformar tu experiencia en un producto digital premium y escalarlo a millones.
           </h2>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed">
             aceleradoradecreadores.com no es una agencia. No te cobramos. Somos tu socio "Publisher". Nosotros construimos toda la maquinaria de negocio (tecnología, marketing y ventas) y cubrimos todos los costos. Tú solo te enfocas en crear.
           </p>
 

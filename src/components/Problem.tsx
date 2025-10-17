@@ -30,11 +30,11 @@ const Problem = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 md:mb-8">
               ¿Atrapado en la "Rueda del Creador"?
             </h2>
             
-            <div className="space-y-4 md:space-y-6 text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <div className="space-y-4 md:space-y-6 text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               <p>
                 Te suena familiar. Creas contenido increíble todos los días. Persigues al algoritmo, luchas por alcance y te agotas intentando mantenerte relevante.
               </p>

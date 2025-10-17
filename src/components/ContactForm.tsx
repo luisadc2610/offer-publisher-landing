@@ -67,16 +67,16 @@ const ContactForm = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto mb-12 md:mb-16">
           <div className="text-center mb-8 md:mb-12 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8 bg-gradient-primary bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 md:mb-8 bg-gradient-primary bg-clip-text text-transparent">
               Es hora de construir tu verdadero Activo Digital.
             </h2>
-            <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Si estás listo para dejar de ser solo un "creador de contenido" y convertirte en el dueño de un negocio digital real, queremos conocerte.
             </p>
           </div>
 
-          <div className="space-y-6 md:space-y-8 text-lg sm:text-xl text-muted-foreground mb-12 md:mb-16 leading-relaxed max-w-3xl mx-auto">
-            <p className="text-center font-semibold text-foreground text-xl md:text-2xl">
+          <div className="space-y-6 md:space-y-8 text-base sm:text-lg text-muted-foreground mb-12 md:mb-16 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-center font-semibold text-foreground text-lg md:text-xl">
               Estamos seleccionando a nuestros próximos socios para 2024. El proceso es simple:
             </p>
             

@@ -25,15 +25,15 @@ const Solution = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 md:mb-6">
               El Modelo de Asociación "Publisher"
             </h2>
-            <p className="text-lg md:text-xl text-muted-foreground mb-4 md:mb-6">
+            <p className="text-base md:text-lg text-muted-foreground">
               (Cómo las estrellas de la información construyen negocios de 8 cifras)
             </p>
           </div>
 
-          <div className="space-y-6 md:space-y-8 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 md:mb-16 leading-relaxed">
+          <div className="space-y-6 md:space-y-8 text-base sm:text-lg md:text-xl text-muted-foreground mb-12 md:mb-16 leading-relaxed">
             <p>
               Los creadores más exitosos del mundo no lo hacen solos. Tienen un socio estratégico en la sombra: un <span className="font-semibold text-foreground">"Publisher"</span>.
             </p>
@@ -42,7 +42,7 @@ const Solution = () => {
               Un Publisher es un equipo de expertos en respuesta directa que maneja todo el "trabajo pesado" del negocio, permitiendo al Creador (tú) centrarse al 100% en su genialidad.
             </p>
             
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-foreground my-8 md:my-12">
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-foreground my-8 md:my-12">
               Nosotros somos ese socio.
             </p>
 

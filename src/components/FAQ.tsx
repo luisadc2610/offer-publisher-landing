@@ -34,7 +34,7 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 md:mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 md:mb-6">
               Preguntas Frecuentes
             </h2>
           </div>
@@ -46,10 +46,10 @@ const FAQ = () => {
                 value={`item-${index}`}
                 className="bg-card border-border rounded-lg px-6 md:px-8 shadow-card hover:shadow-glow transition-all duration-300"
               >
-                <AccordionTrigger className="text-left text-lg sm:text-xl md:text-2xl font-bold text-card-foreground py-6 hover:no-underline">
+                <AccordionTrigger className="text-left text-base sm:text-lg md:text-xl font-bold text-card-foreground py-6 hover:no-underline">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-base sm:text-lg md:text-xl text-muted-foreground pb-6 leading-relaxed">
+                <AccordionContent className="text-sm sm:text-base md:text-lg text-muted-foreground pb-6 leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

@@ -26,12 +26,12 @@ const Authority = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 md:mb-8">
               No somos "Gurús". Somos Operadores.
             </h2>
           </div>
 
-          <div className="space-y-6 md:space-y-8 text-lg sm:text-xl md:text-2xl text-muted-foreground mb-12 md:mb-16 leading-relaxed">
+          <div className="space-y-6 md:space-y-8 text-base sm:text-lg md:text-xl text-muted-foreground mb-12 md:mb-16 leading-relaxed">
             <p>
               Aceleradora de Creadores fue fundada por expertos en marketing de respuesta directa y operaciones de negocio digital.
             </p>
@@ -63,12 +63,12 @@ const Authority = () => {
             })}
           </div>
 
-          <div className="space-y-6 md:space-y-8 text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed">
+          <div className="space-y-6 md:space-y-8 text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed">
             <p>
               Vimos a cientos de creadores increíbles quemarse en la rueda de contenido, mientras "gurús" sin experiencia real vendían cursos mediocres. Decidimos cambiar eso.
             </p>
             
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-foreground my-8 md:my-12">
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-foreground my-8 md:my-12">
               No queremos ser la cara del negocio. Queremos ser el motor. Tu cara es la marca. Nuestro trabajo es hacer que esa marca facture millones.
             </p>
           </div>
