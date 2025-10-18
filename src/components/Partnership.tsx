@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { User, Building2 } from "lucide-react";
+import partnershipIllustration from "@/assets/partnership-illustration.jpg";
 
 const Partnership = () => {
   const creatorTasks = [
@@ -88,7 +89,15 @@ const Partnership = () => {
             </Card>
           </div>
 
-          <div className="text-center mt-12 md:mt-16">
+          <div className="mt-12 md:mt-16 rounded-2xl overflow-hidden shadow-elegant animate-fade-in">
+            <img 
+              src={partnershipIllustration} 
+              alt="Ilustración de asociación 50/50" 
+              className="w-full h-auto"
+            />
+          </div>
+
+          <div className="text-center mt-8 md:mt-12">
             <p className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
               En resumen: Tú creas. Nosotros construimos el imperio a tu alrededor.
             </p>
