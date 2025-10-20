@@ -24,7 +24,7 @@ const Partnership = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 md:mb-16 animate-fade-in">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 md:mb-6">
-              Nuestra Asociación 50/50: Claridad Total
+              Nuestra Asociación: Claridad Total
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Creemos en la alineación total de intereses. Solo ganamos dinero si tú ganas dinero. Por eso, la división de tareas es simple.
@@ -87,14 +87,6 @@ const Partnership = () => {
                 ))}
               </ul>
             </Card>
-          </div>
-
-          <div className="mt-12 md:mt-16 rounded-2xl overflow-hidden shadow-elegant animate-fade-in">
-            <img 
-              src={partnershipIllustration} 
-              alt="Ilustración de asociación 50/50" 
-              className="w-full h-auto"
-            />
           </div>
 
           <div className="text-center mt-8 md:mt-12">

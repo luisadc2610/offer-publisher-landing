@@ -1,3 +1,6 @@
+import TermsAndConditions from "@/components/TermsAndConditions";
+import PrivacyPolicy from "@/components/PrivacyPolicy";
+
 const Footer = () => {
   return (
     <footer className="bg-secondary py-12 md:py-16 border-t border-border">
@@ -9,7 +12,7 @@ const Footer = () => {
                 Aceleradora de Creadores
               </h3>
               <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                Tu socio Publisher para construir un imperio digital. No te cobramos. Nos asociamos 50/50 en las ganancias.
+                Tu socio Publisher para construir un imperio digital. Sin costos iniciales, solo compartimos las ganancias.
               </p>
             </div>
 
@@ -20,20 +23,18 @@ const Footer = () => {
               <nav aria-label="Footer navigation">
                 <ul className="space-y-3">
                   <li>
-                    <a
-                      href="#"
-                      className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      Política de Privacidad
-                    </a>
+                    <PrivacyPolicy>
+                      <button className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors">
+                        Política de Privacidad
+                      </button>
+                    </PrivacyPolicy>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      Términos y Condiciones
-                    </a>
+                    <TermsAndConditions>
+                      <button className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors">
+                        Términos y Condiciones
+                      </button>
+                    </TermsAndConditions>
                   </li>
                 </ul>
               </nav>
@@ -46,10 +47,10 @@ const Footer = () => {
               <address className="not-italic text-sm md:text-base text-muted-foreground space-y-2">
                 <p>
                   <a
-                    href="mailto:hola@aceleradoradecreadores.com"
+                    href="mailto:luis@aceleradoradecreadores.com"
                     className="hover:text-primary transition-colors"
                   >
-                    hola@aceleradoradecreadores.com
+                    luis@aceleradoradecreadores.com
                   </a>
                 </p>
               </address>

@@ -8,14 +8,9 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "¿Por qué 50/50 si es mi audiencia y mi conocimiento?",
-      answer:
-        "Porque una audiencia y un conocimiento no son un negocio. Son potencial. Nosotros aportamos el 100% del capital de riesgo, la estrategia probada, el equipo de expertos y las miles de horas de trabajo necesarias para convertir ese potencial en un producto de 8 cifras y escalarlo más allá de tu audiencia actual con tráfico pagado.",
-    },
-    {
       question: "¿De verdad no pago NADA? ¿Cuál es la trampa?",
       answer:
-        "Cero. No hay trampa. Aceleradora de Creadores cubre todos los costos: software, personal, diseño y hasta $10,000 - $50,000+ en inversión publicitaria inicial para probar y escalar la oferta. Solo ganamos dinero (el 50% de las ganancias) después de que tú hayas ganado dinero.",
+        "Cero. No hay trampa. Aceleradora de Creadores cubre todos los costos: software, personal, diseño y hasta $10,000 - $50,000+ en inversión publicitaria inicial para probar y escalar la oferta. Solo ganamos dinero después de que tú hayas ganado dinero.",
     },
     {
       question: "¿Cuánto tiempo me tomará?",

@@ -38,19 +38,6 @@ const Hero = () => {
           />
         </div>
 
-        {/* Social Proof Badge */}
-        <div className="absolute top-20 md:top-24 left-1/2 -translate-x-1/2 z-20 animate-fade-in">
-          <div className="bg-card/90 backdrop-blur-sm px-4 py-2 rounded-full border border-primary/20 shadow-elegant flex items-center gap-3">
-            <div className="flex -space-x-2">
-              <div className="w-6 h-6 rounded-full bg-gradient-primary border-2 border-background" />
-              <div className="w-6 h-6 rounded-full bg-gradient-accent border-2 border-background" />
-              <div className="w-6 h-6 rounded-full bg-gradient-primary border-2 border-background" />
-            </div>
-            <span className="text-xs sm:text-sm font-semibold text-foreground">
-              🔥 15 socios activos generando $500K+/mes
-            </span>
-          </div>
-        </div>
 
         {/* Content */}
         <div className="relative z-10 container mx-auto px-4 py-24 md:py-32 lg:py-40">
@@ -60,7 +47,7 @@ const Hero = () => {
             </h1>
             
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-10 text-foreground leading-tight">
-              Has construido una audiencia que confía en ti. Nos asociamos 50/50 para transformar tu experiencia en un producto digital premium y escalarlo a millones.
+              Has construido una audiencia que confía en ti. Nos asociamos para transformar tu experiencia en un producto digital premium y escalarlo a millones.
             </h2>
 
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed">
@@ -108,7 +95,7 @@ const Hero = () => {
       <Dialog open={isVideoOpen} onOpenChange={setIsVideoOpen}>
         <DialogContent className="sm:max-w-4xl">
           <DialogHeader>
-            <DialogTitle className="text-2xl font-bold">Cómo Funciona Nuestra Asociación 50/50</DialogTitle>
+            <DialogTitle className="text-2xl font-bold">Cómo Funciona Nuestra Asociación</DialogTitle>
             <DialogDescription>
               Descubre cómo transformamos creadores de contenido en dueños de negocios digitales de 7-8 cifras
             </DialogDescription>

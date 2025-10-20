@@ -14,7 +14,6 @@ const Filter = () => {
     'Estás Empezando de Cero: "Quieres" construir una audiencia pero aún no la tienes.',
     'No te Gusta "Vender": No estás dispuesto a promocionar activamente el producto que creamos juntos a tu propia audiencia.',
     'Buscas un "Pelotazo" Rápido: No estás interesado en construir un producto de calidad mundial y un negocio sostenible.',
-    'No eres "Entrenable": Ya crees saberlo todo sobre marketing digital y no estás abierto a un modelo de socio estratégico.',
   ];
 
   return (

@@ -136,7 +136,7 @@ const ComparisonTable = () => {
                     <div className="text-sm">{renderCell(feature.solo)}</div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm font-semibold text-primary">Aceleradora 50/50</span>
+                    <span className="text-sm font-semibold text-primary">Aceleradora</span>
                     <div className="text-sm">{renderCell(feature.accelerator, feature.acceleratorHighlight)}</div>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ const ComparisonTable = () => {
                       <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs px-3 py-1 rounded-full whitespace-nowrap">
                         Mejor Opción
                       </div>
-                      Aceleradora 50/50
+                      Aceleradora
                     </th>
                   </tr>
                 </thead>
