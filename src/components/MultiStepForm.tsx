@@ -451,19 +451,19 @@ const MultiStepForm = () => {
               <RadioGroup value={formData.revenueGoal} onValueChange={(val) => updateFormData("revenueGoal", val)}>
                 <div className="flex items-center space-x-2 p-3 rounded-lg hover:bg-accent cursor-pointer">
                   <RadioGroupItem value="100k-250k" id="goal-1" />
-                  <Label htmlFor="goal-1" className="cursor-pointer flex-1">$100K - $250K</Label>
+                  <Label htmlFor="goal-1" className="cursor-pointer flex-1">100K€ - 250K€</Label>
                 </div>
                 <div className="flex items-center space-x-2 p-3 rounded-lg hover:bg-accent cursor-pointer">
                   <RadioGroupItem value="250k-500k" id="goal-2" />
-                  <Label htmlFor="goal-2" className="cursor-pointer flex-1">$250K - $500K</Label>
+                  <Label htmlFor="goal-2" className="cursor-pointer flex-1">250K€ - 500K€</Label>
                 </div>
                 <div className="flex items-center space-x-2 p-3 rounded-lg hover:bg-accent cursor-pointer">
                   <RadioGroupItem value="500k-1m" id="goal-3" />
-                  <Label htmlFor="goal-3" className="cursor-pointer flex-1">$500K - $1M</Label>
+                  <Label htmlFor="goal-3" className="cursor-pointer flex-1">500K€ - 1M€</Label>
                 </div>
                 <div className="flex items-center space-x-2 p-3 rounded-lg hover:bg-accent cursor-pointer">
                   <RadioGroupItem value="1m+" id="goal-4" />
-                  <Label htmlFor="goal-4" className="cursor-pointer flex-1">Más de $1M</Label>
+                  <Label htmlFor="goal-4" className="cursor-pointer flex-1">Más de 1M€</Label>
                 </div>
               </RadioGroup>
               {errors.revenueGoal && (

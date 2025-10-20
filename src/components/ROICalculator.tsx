@@ -37,7 +37,7 @@ const ROICalculator = () => {
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('es-ES', {
       style: 'currency',
-      currency: 'USD',
+      currency: 'EUR',
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     }).format(amount);
@@ -187,7 +187,7 @@ const ROICalculator = () => {
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">✓</span>
-                    <span>Producto digital premium ($497 - $997)</span>
+                    <span>Producto digital premium (497€ - 997€)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">✓</span>
@@ -195,7 +195,7 @@ const ROICalculator = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">✓</span>
-                    <span>Tráfico pagado escalado ($30K - $50K inversión)</span>
+                    <span>Tráfico pagado escalado (30K€ - 50K€ inversión)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">✓</span>

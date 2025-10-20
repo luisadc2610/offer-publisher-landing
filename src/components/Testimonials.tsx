@@ -4,16 +4,16 @@ import { TrendingUp } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      revenue: "$127K en 90 días",
-      quote: "Pasé de cobrar $200 por consultoría a generar más de $127,000 en mi primer trimestre. El equipo manejó TODO el marketing y tecnología, yo solo me enfoqué en crear el mejor contenido posible.",
+      revenue: "127K€ en 90 días",
+      quote: "Pasé de cobrar 200€ por consultoría a generar más de 127.000€ en mi primer trimestre. El equipo manejó TODO el marketing y tecnología, yo solo me enfoqué en crear el mejor contenido posible.",
     },
     {
-      revenue: "$285K en 6 meses",
-      quote: "Intenté lanzar un curso solo 3 veces y fracasé. Con Aceleradora de Creadores, en 6 meses generamos casi $300K. La diferencia es tener un equipo de expertos que sabe exactamente qué hacer en cada paso.",
+      revenue: "285K€ en 6 meses",
+      quote: "Intenté lanzar un curso solo 3 veces y fracasé. Con Aceleradora de Creadores, en 6 meses generamos casi 300K€. La diferencia es tener un equipo de expertos que sabe exactamente qué hacer en cada paso.",
     },
     {
-      revenue: "$195K en 120 días",
-      quote: "Cero riesgo de mi parte, ellos invirtieron más de $40K en anuncios, y ahora tengo un negocio digital real que genera ingresos mientras duermo.",
+      revenue: "195K€ en 120 días",
+      quote: "Cero riesgo de mi parte, ellos invirtieron más de 40K€ en anuncios, y ahora tengo un negocio digital real que genera ingresos mientras duermo.",
     },
   ];
 
@@ -56,7 +56,7 @@ const Testimonials = () => {
             <div className="inline-flex flex-wrap items-center justify-center gap-4 md:gap-8 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full" />
-                <span className="text-sm md:text-base font-semibold">$10M+ generados para socios</span>
+                <span className="text-sm md:text-base font-semibold">10M€+ generados para socios</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full" />

@@ -5,9 +5,9 @@ const ComparisonTable = () => {
   const features = [
     {
       name: "Costo inicial",
-      agency: "$5,000 - $50,000",
-      solo: "$0",
-      accelerator: "$0",
+      agency: "5.000€ - 50.000€",
+      solo: "0€",
+      accelerator: "0€",
       acceleratorHighlight: true,
     },
     {
@@ -21,7 +21,7 @@ const ComparisonTable = () => {
       name: "Inversión en tráfico pagado",
       agency: false,
       solo: false,
-      accelerator: "$30K - $50K+ por lanzamiento",
+      accelerator: "30K€ - 50K€+ por lanzamiento",
       acceleratorHighlight: true,
     },
     {
