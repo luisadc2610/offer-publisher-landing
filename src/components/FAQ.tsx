@@ -10,7 +10,7 @@ const FAQ = () => {
     {
       question: "¿De verdad no pago NADA? ¿Cuál es la trampa?",
       answer:
-        "Cero. No hay trampa. Aceleradora de Creadores cubre todos los costos: software, personal, diseño y hasta 10.000€ - 50.000€+ en inversión publicitaria inicial para probar y escalar la oferta. Solo ganamos dinero después de que tú hayas ganado dinero.",
+        "Cero. No hay trampa. Aceleradora de Creadores cubre todos los costos: software, personal, diseño y gestión completa de campañas publicitarias para probar y escalar la oferta. Solo ganamos dinero después de que tú hayas ganado dinero.",
     },
     {
       question: "¿Cuánto tiempo me tomará?",

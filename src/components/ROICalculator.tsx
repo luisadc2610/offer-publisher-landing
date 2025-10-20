@@ -195,7 +195,7 @@ const ROICalculator = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">✓</span>
-                    <span>Tráfico pagado escalado (30K€ - 50K€ inversión)</span>
+                    <span>Gestión profesional de tráfico pagado</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-primary mt-1">✓</span>

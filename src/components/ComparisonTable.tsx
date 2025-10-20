@@ -18,10 +18,10 @@ const ComparisonTable = () => {
       acceleratorHighlight: true,
     },
     {
-      name: "Inversión en tráfico pagado",
+      name: "Gestión de tráfico pagado",
       agency: false,
       solo: false,
-      accelerator: "30K€ - 50K€+ por lanzamiento",
+      accelerator: "Equipo dedicado",
       acceleratorHighlight: true,
     },
     {

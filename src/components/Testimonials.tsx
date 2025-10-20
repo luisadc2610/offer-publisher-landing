@@ -13,7 +13,7 @@ const Testimonials = () => {
     },
     {
       revenue: "195K€ en 120 días",
-      quote: "Cero riesgo de mi parte, ellos invirtieron más de 40K€ en anuncios, y ahora tengo un negocio digital real que genera ingresos mientras duermo.",
+      quote: "Cero riesgo de mi parte, el equipo gestionó todas las campañas publicitarias, y ahora tengo un negocio digital real que genera ingresos mientras duermo.",
     },
   ];
 
